@@ -1,4 +1,4 @@
-FROM fedora:36
+FROM fedora:37
 
 RUN dnf -y install \
     abattis-cantarell-fonts \
@@ -36,8 +36,10 @@ RUN dnf -y install \
     meson \
     ninja-build \
     python3 \
+    python3-docutils \
     python3-jinja2 \
     python3-markdown \
+    python3-packaging \
     python3-pip \
     python3-pygments \
     python3-toml \
